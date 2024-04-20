@@ -41,10 +41,10 @@ int test(int x, int y, int n)
 
 int go_deep(int x, int y)
 {
+    int dx = x + 1, dy = y;
+    if (dx == 9) { dx = 0; dy++; if (dy == 9) return 1; }
     if (get(x, y))
     {
-        int dx = x + 1, dy = y;
-        if (dx == 9) { dx = 0; dy++; if (dy == 9) return 1; }
         return go_deep(dx, dy);
     }
     else
@@ -54,8 +54,6 @@ int go_deep(int x, int y)
             if (test(x, y, n))
             {
                 put(x, y, n);
-                int dx = x + 1, dy = y;
-                if (dx == 9) { dx = 0; dy++; if (dy == 9) return 1; }
                 if (go_deep(dx, dy)) return 1;
                 put(x, y, 0);
             }
