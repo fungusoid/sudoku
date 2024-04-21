@@ -1,0 +1,14 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/mikko/Documents/c/sudokuhub2/sudoku/sudoku'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _get, symObjAddr: 0x0, symBinAddr: 0x100003B00, symSize: 0x34 }
+  - { offsetInCU: 0x3F, offset: 0x3F, size: 0x8, addend: 0x0, symName: _puzzle, symObjAddr: 0x48C, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offsetInCU: 0x69, offset: 0x69, size: 0x8, addend: 0x0, symName: _get, symObjAddr: 0x0, symBinAddr: 0x100003B00, symSize: 0x34 }
+  - { offsetInCU: 0x9F, offset: 0x9F, size: 0x8, addend: 0x0, symName: _put, symObjAddr: 0x34, symBinAddr: 0x100003B34, symSize: 0x3C }
+  - { offsetInCU: 0xDF, offset: 0xDF, size: 0x8, addend: 0x0, symName: _test, symObjAddr: 0x70, symBinAddr: 0x100003B70, symSize: 0x18C }
+  - { offsetInCU: 0x193, offset: 0x193, size: 0x8, addend: 0x0, symName: _go_deep, symObjAddr: 0x1FC, symBinAddr: 0x100003CFC, symSize: 0x19C }
+  - { offsetInCU: 0x20F, offset: 0x20F, size: 0x8, addend: 0x0, symName: _solve, symObjAddr: 0x398, symBinAddr: 0x100003E98, symSize: 0x1C }
+  - { offsetInCU: 0x228, offset: 0x228, size: 0x8, addend: 0x0, symName: _print, symObjAddr: 0x3B4, symBinAddr: 0x100003EB4, symSize: 0xA8 }
+  - { offsetInCU: 0x276, offset: 0x276, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x45C, symBinAddr: 0x100003F5C, symSize: 0x30 }
+...
